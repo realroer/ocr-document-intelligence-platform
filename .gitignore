@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Raw / private data
+data/
+raw_files/
+output_json/
+output_csv/
+single_test_output/
+*.csv
+*.json
+
+# Keep only sanitized examples
+!sample_data/*.json
+!sample_output/*.json
+!config/*.csv
+
+# Project runtime files
+processed_files_registry.json
+master_payslip_dataset.csv
+
+# Backups / experiments
+*backup*
+*bup*
+*_old*
+*_test*
+
+# Credentials
+*.key
+*.pem
+*.env
+.env
+service_account*.json
+credentials*.json
